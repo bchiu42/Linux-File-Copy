@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head><title> About Me! </title></head>
+	<body>
+		<header><h1>About Me!</h1></header>
+		<p>Hi! My name is Ben and I go to UW Madison. One fun fact about me is that I have more bones than the average human!</p>
+		<h2>However, you may know me by a different name! Here are some of my Aliases!</h2>
+
+		<ul>
+			
+			<li>Benji</li>
+			<li>Bean</li>
+			<li>Chiu-Chiu Train</li>
+			<li>UnhookedFern27</li>
+			<li>DAVE</li>
+		</ul>
+
+		<img src = "https://electrocatalysis.che.wisc.edu/img/chiu.jpeg" alt="no photo yet" width ="1200" height="200" />
+
+		<br>
+		<p2><a href="https://electrocatalysis.che.wisc.edu/group.html">Read more about me here!</a></p2>
+		<br>
+		<button id="change"  onclick="buttonFunction()">CHANGE</button>
+		<script>
+		var onClick = true;	
+		function buttonFunction(){
+		if(onClick){
+		document.getElementById("change").innerText = "I HAVE CHANGED";
+		onClick = false;
+		} else{
+		document.getElementById("change").innerText = "CHANGE";
+		onClick = true;
+		}			
+
+
+		}	
+
+		</script>
+		<footer>Created on 5/1/2020 not in 2018 I am not lying about time traveling...</footer>
+	</body>
+</html>
+

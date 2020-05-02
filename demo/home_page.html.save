@@ -1,0 +1,21 @@
+title<!DOCTYPE html>
+<html>
+	<head><title> About Me! </h1></head>
+	<body>
+		<header><h1>About Me!</h1></header>
+		<p>Hi! My name is Ben and I go to UW Madison. One fun fact about me is that I have more bones than the average human!</p>
+		<h2>However, you may know me by a different name! Here are some of my Aliases!</h2>
+
+		<ul>
+			
+			<li>Benji</li>
+			<li>Bean</li>
+			<li>Chiu-Chiu Train</li>
+			<li>UnhookedFern27</li>
+			<li>DAVE</li>
+		</ul>
+		<img src = "electrocatalysis.che.wisc.edu/img/chiu.jpeg" alt="no photo yet" width ="100" height="50" />
+		<footer>Created on 5/1/2020</footer>
+	</body>
+</html>
+
